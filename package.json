@@ -1,0 +1,20 @@
+{
+  "name": "fivem-discord-guard-bot",
+  "version": "1.0.0",
+  "description": "Advanced Discord bot for FiveM servers — tickets, guard-logs, whitelist, events, autorole, voice join (deafened), and configurable command-role.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "@snazzah/davey": "^0.1.8",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.1",
+    "node-fetch": "^2.6.7"
+  }
+}
